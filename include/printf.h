@@ -6,7 +6,7 @@
 /*   By: sidna_7 <who??@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/18 13:33:03 by sidna_7           #+#    #+#             */
-/*   Updated: 2025/09/18 13:36:28 by sidna_7          ###   ########.fr       */
+/*   Updated: 2025/09/18 21:30:35 by sidna_7          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@
 # include <stdarg.h>
 # include <unistd.h>
 
+int	ft_printf(char const *s, ...);
 int	ft_printf(const char *format, ...);
 int	ft_puthex(unsigned int n, char format);
 int	ft_putnbr_fd(int n, int fd);
